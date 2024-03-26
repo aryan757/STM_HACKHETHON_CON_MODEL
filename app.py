@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.llms import OpenAI
+#from langchain_community.chat_models import ChatOpenAI
 import pandas as pd
 #df = pd.read_csv("C:\\Users\\aryan\\Downloads\\STM_R_and_D\\updated_data.csv")
 df = pd.read_csv("./dataset_gps.csv")
